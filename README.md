@@ -10,13 +10,21 @@
 > git pull origin [branchName]
 #### Status
 > git status
-
 #### Branch
 > git checkout -b [branchName]   
-  -> change branch with create   
-  
+> -> change branch with create   
+>  
 > git switch [branchName]   
-  -> change branch with create   
- 
+> -> change branch with create   
+> 
 > git branch [branchName]   
-  -> change branch   
+> -> change branch   
+>
+> git branch -v   
+  -> present branch
+#### Remote
+> git remote add origin [repo addr or ssh key]   
+> -> connect to remote repository   
+>  
+> git remote -v   
+> -> present remote repo
